@@ -78,7 +78,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: new Stack(
                     alignment: FractionalOffset.bottomCenter,
                     children: <Widget>[
-                      Container(
+                      new Container(
+                          child:
+                              new Image.network(storeItems[index].itemImage)),
+                      new Container(
                         height: 30.0,
                         color: Colors.black.withAlpha(100),
                         child: Padding(
