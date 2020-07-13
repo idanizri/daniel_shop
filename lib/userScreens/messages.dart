@@ -15,7 +15,7 @@ class _UserMessagesState extends State<UserMessages> {
       ),
       body: new Center(
         child: new Text(
-          "My Messages",
+          "My Messages...",
           style: new TextStyle(fontSize: 25.0),
         ),
       ),
