@@ -16,7 +16,7 @@ class _UserCartState extends State<UserCart> {
       body: new Center(
         child: new Text(
           "My Cart",
-          style: new TextStyle(fontSize: 25.0),
+          style: new TextStyle(fontSize: 25.5),
         ),
       ),
     );
